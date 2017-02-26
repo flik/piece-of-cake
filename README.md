@@ -77,6 +77,7 @@ if ($is_valid === true) {
     return $this->respond($is_valid, 401);
 }
 
+//https://github.com/flik/X for documentation
 //initializing users table
 X::manage('users');
 $member = X::where('email', '=', $input['email']);
