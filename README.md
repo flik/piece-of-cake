@@ -1,6 +1,17 @@
 # piece-of-cake
 New MVC framework with lot of flexibility
 
+
+# DB Configuration:
+```
+//Config/database.php 
+```
+
+# Common Functions:
+```
+//framework/bootstrap.php 
+```
+
 # Check routes:
 ```
 //Config/routes.php
