@@ -1,6 +1,6 @@
 {
-    "name": "PieceOfCake",
-    "description": "A basic MVC framework for fast performance. ",
+    "name": "flik/piece-of-cake",
+    "description": "Piece of Cake is a basic MVC framework for fast performance. ",
     "keywords": ["framework", "MVC", "mysql", "database"],
     "homepage": "https://github.com/flik/piece-of-cake.git",
     "license": "MIT",
@@ -11,10 +11,7 @@
             "homepage": "https://www.linkedin.com/in/mohammad-ashfaq-09097417/",
             "role": "Developer"
         }
-    ],
-    "autoload": {
-        "files": ["X.php"]
-    },
+    ], 
      "require": {
         "xorm/xorm": "dev-master",
         "simple-html-dom/simple-html-dom": "*" , 
