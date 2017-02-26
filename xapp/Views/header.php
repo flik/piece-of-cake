@@ -53,7 +53,7 @@
         <div class="navbar-header">
           
           <a class="navbar-brand" href="/"> 
-			  <img src="public/images/logo.jpg" class="logo" height="50" alt="logo">
+			  <img src="public/images/logo.png" class="logo" height="50" alt="logo">
 			</a>
         </div>
         <div id="navbar" class="navbar-collapse ">
