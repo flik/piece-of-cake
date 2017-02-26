@@ -1,5 +1,5 @@
 {
-    "name": "PieceOfCake",
+    "name": "piece-of-cake",
     "description": "A basic MVC framework for fast performance. ",
     "keywords": ["framework", "MVC", "mysql", "database"],
     "homepage": "https://github.com/flik/piece-of-cake.git",
