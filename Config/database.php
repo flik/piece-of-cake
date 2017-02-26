@@ -7,5 +7,7 @@ function cred(){
 					'port' =>  '3306',
 					'database' => 'marriage',
 					'username' => 'admin',
-					'password' => 'admin' ));
+					'password' => 'admin',
+					'debug_level' => 0 // Incase of 1 It will show all queries
+					 ));
 }

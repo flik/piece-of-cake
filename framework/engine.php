@@ -45,7 +45,7 @@ exit;
 $dbc = cred();
 $dbc = $dbc['db'];
 
-X::setup( 'mysql:host='.$dbc['host'].';dbname='.$dbc['database'].';charset=utf8',  $dbc['username'] ,  $dbc['password'] ,0);
+X::setup( 'mysql:host='.$dbc['host'].';dbname='.$dbc['database'].';charset=utf8',  $dbc['username'] ,  $dbc['password'] ,$dbc['debug_level']);
  
  /*
 $data = X::load('live_users' ,12 );
