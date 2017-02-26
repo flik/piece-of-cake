@@ -42,6 +42,10 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    
+    <!-- datatable core CSS -->
+    <link href="public/css/jquery.dataTables.min.css" rel="stylesheet">
+    
   </head>
 
   <body>
@@ -82,3 +86,31 @@
     </nav>    
 <br clearstatcache clear="all">
     <div class="container theme-showcase" role="main">
+
+<h1>datatable Page</h1>  
+<?php require 'data.txt'; ?>
+ </div> <!-- /container -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="public/bootstrap-3.3.7/js/jquery.min.js"></script>
+    <script src="public/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="public/bootstrap-3.3.7/js/ie10-viewport-bug-workaround.js"></script>
+    
+    <!-- datatable core js  -->
+    <script src="public/js/jquery.dataTables.min.js"></script>
+    
+    <script>
+    
+    $(document).ready(function() {
+		$('#example').DataTable();
+	} );
+</script>
+    
+  </body>
+</html>
+

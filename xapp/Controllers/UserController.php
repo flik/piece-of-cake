@@ -18,13 +18,22 @@ class UserController extends ApiController
 
     }
 
-    public function index($request)
+    public function index()
     {
 		$arr['title'] = 'About Us page';
 		
         render('content',$arr);
 
     }
+    
+    public function datatable()
+    {
+		$arr['title'] = 'Satatable Us page';
+		
+        render('datatable',$arr);
+
+    }
+    
 
     public function login()
     {
