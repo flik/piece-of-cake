@@ -1,17 +1,26 @@
 {
-	"name": "PieceOfCake",
+    "name": "PieceOfCake",
     "description": "A basic MVC framework for fast performance. ",
-    "keywords": ["framework", "mysql", "database"],
-    "license": "MIT", 
-    "authors": [{
-        "name": "Mohammad Ashfaq",
-        "email": "asfhaqzp@gmail.com"
-    }],
-    "require": {
+    "keywords": ["framework", "MVC", "mysql", "database"],
+    "homepage": "https://github.com/flik/piece-of-cake.git",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Ashfaq",
+            "email": "ashfaqzp@gmail.com",
+            "homepage": "https://www.linkedin.com/in/mohammad-ashfaq-09097417/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": ["X.php"]
+    },
+     "require": {
         "xorm/xorm": "dev-master",
         "simple-html-dom/simple-html-dom": "*" , 
 		"smarty/smarty": "~3.1",
 		"wixel/gump": "dev-master",
         "adamwathan/form": "^0.8.12"
-    }
+    },
+    "minimum-stability": "dev"
 }
