@@ -1,0 +1,91 @@
+.maintenance-page {
+    background: #f6f8f8;
+    padding: 0;
+}
+
+.maintenance-page h1 {
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: 1.3;
+    color: #859299;
+    margin: 0 20px 20px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.maintenance-page .header {
+    background: #ffffff;
+    border-bottom: 1px solid #dfe3e3;
+    padding: 20px 0;
+}
+
+.maintenance-page .header img {
+    display: block;
+    margin: 0 auto;
+}
+
+.maintenance-page .back {
+    text-align: right;
+    width: 100%;
+    color: #859299;
+    clear: right;
+}
+
+.maintenance-page a {
+    color: #859299;
+}
+
+.maintenance-page .login-wrapper {
+    position: absolute;
+    top: 168px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.maintenance-page .login-wrapper .logo {
+    margin-bottom: 45px;
+    position: relative;
+    left: -2px;
+}
+.maintenance-page .login-wrapper .box {
+    margin: 0 auto;
+    padding: 40px 0 30px;
+    float: none;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #dfe3e3;
+    background: #ffffff;
+}
+.maintenance-page .login-wrapper .box .content-wrap {
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* Browser Compatibility Page */
+.maintenance-page h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.maintenance-page p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.maintenance-page .box {
+    width: 600px;
+}
+
+/* responsive */
+@media (max-width: 767px) {
+    .maintenance-page .login-wrapper .box {
+        width: 350px;
+    }
+}
+@media (max-width: 480px) {
+    .maintenance-page .login-wrapper .box {
+        width: 90%;
+    }
+}

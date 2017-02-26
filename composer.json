@@ -1,0 +1,17 @@
+{
+	"name": "PieceOfCake",
+    "description": "A basic MVC framework for fast performance. ",
+    "keywords": ["framework", "mysql", "database"],
+    "license": "MIT", 
+    "authors": [{
+        "name": "Mohammad Ashfaq",
+        "email": "asfhaqzp@gmail.com"
+    }],
+    "require": {
+        "xorm/xorm": "dev-master",
+        "simple-html-dom/simple-html-dom": "*" , 
+		"smarty/smarty": "~3.1",
+		"wixel/gump": "dev-master",
+        "adamwathan/form": "^0.8.12"
+    }
+}
