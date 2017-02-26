@@ -65,7 +65,8 @@ $model = json_decode(json_encode(array('full_name'=>'John Doe',
 use GUMP as V; // write at top
 
 //example use in UserController.php
-$is_valid = V::is_valid($_REQUEST, array(
+$input = $_REQUEST;
+$is_valid = V::is_valid($input, array(
                 'username' => 'required|alpha_numeric',
 		'password' => 'required|max_len,100|min_len,6'
         ));
@@ -78,7 +79,7 @@ if ($is_valid === true) {
 
 //initializing users table
 X::manage('users');
-$member = X::where('email', '=', $_REQUEST['email']);
+$member = X::where('email', '=', $input['email']);
 
 if (!empty($member))
     $this->respond(['Email already exist!'], 401);
