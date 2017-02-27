@@ -81,7 +81,7 @@ class UserController extends ApiController
     public function testx( $id = 9)
     {
 
-          
+        debugx('xapp/Controller/UserController.php'); 
         debugx('id is ->' . $id);  
 
         debugx('data in _POST');
