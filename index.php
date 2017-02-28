@@ -10,6 +10,7 @@
  * @since         PieceOfCake v 0.1 
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
+//For cross server communication
 header('Content-Type: text/html; charset=utf-8');
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Credentials: true ");
