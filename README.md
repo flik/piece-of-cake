@@ -12,7 +12,7 @@ New MVC framework with lot of flexibility
 //framework/bootstrap.php 
 ```
 
-# Check routes:
+# Check routes like laravel and cakephp routes:
 ```
 //Config/routes.php
 $Route = array(
