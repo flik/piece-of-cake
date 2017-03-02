@@ -1,5 +1,5 @@
 # piece-of-cake
-New MVC framework with lot of flexibility
+New MVC framework with lot of flexibility. Work in progress...
 
 # Installation:
 ```
