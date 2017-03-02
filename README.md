@@ -1,6 +1,10 @@
 # piece-of-cake
 New MVC framework with lot of flexibility
 
+# Installation:
+```
+composer install
+```
 
 # DB Configuration:
 ```
