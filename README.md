@@ -2,9 +2,13 @@
 New MVC framework with lot of flexibility. Work in progress...
 
 # Installation:
+
 ```
 composer install
 ```
+Composer detail: 
+
+http://rapidsol.blogspot.com/2015/03/download-composerphar.html
 
 # DB Configuration:
 ```
