@@ -1,6 +1,14 @@
 # piece-of-cake
-New MVC framework with lot of flexibility
+New MVC framework with lot of flexibility. Work in progress...
 
+# Installation:
+
+```
+composer install
+```
+Composer detail: 
+
+http://rapidsol.blogspot.com/2015/03/download-composerphar.html
 
 # DB Configuration:
 ```
@@ -12,7 +20,7 @@ New MVC framework with lot of flexibility
 //framework/bootstrap.php 
 ```
 
-# Check routes:
+# Check routes like laravel and cakephp routes:
 ```
 //Config/routes.php
 $Route = array(
