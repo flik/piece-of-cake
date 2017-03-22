@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-02-26 13:43:38
+/* Smarty version 3.1.31, created on 2017-02-28 06:54:01
   from "D:\xampp\htdocs\piece-of-cake\xapp\Views\templates\index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_58b2db8a7125e9_49067755',
+  'unifunc' => 'content_58b51e890ff2e8_34644507',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -22,7 +22,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_58b2db8a7125e9_49067755 (Smarty_Internal_Template $_smarty_tpl) {
+function content_58b51e890ff2e8_34644507 (Smarty_Internal_Template $_smarty_tpl) {
 if (!is_callable('smarty_modifier_date_format')) require_once 'D:\\xampp\\htdocs\\piece-of-cake\\vendor\\smarty\\smarty\\libs\\plugins\\modifier.date_format.php';
 if (!is_callable('smarty_function_html_select_date')) require_once 'D:\\xampp\\htdocs\\piece-of-cake\\vendor\\smarty\\smarty\\libs\\plugins\\function.html_select_date.php';
 if (!is_callable('smarty_function_html_select_time')) require_once 'D:\\xampp\\htdocs\\piece-of-cake\\vendor\\smarty\\smarty\\libs\\plugins\\function.html_select_time.php';

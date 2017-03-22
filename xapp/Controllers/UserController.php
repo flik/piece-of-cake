@@ -93,6 +93,11 @@ class UserController extends ApiController
         debugx('data in _REQUEST');
         debug($_REQUEST,0);
 
+		$input = json_decode(file_get_contents('php://input'), true);
+
+		debugx('data in json input');
+        debug($input,0);
+
         debugx('data in _SERVER');
         debug($_SERVER,0);
 
