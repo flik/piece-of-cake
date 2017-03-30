@@ -1,0 +1,39 @@
+#RewriteEngine - enable the rewriting engine
+RewriteEngine On
+
+#RewriteRule ^/?Some-text-goes-here/([0-9]+)$ /page.php?id=$1
+
+######################
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteCond %{REQUEST_URI} !-l
+RewriteCond %{REQUEST_FILENAME} !\.(ico|css|png|jpg|gif|js)$ [NC]
+# otherwise forward it to index.php
+RewriteRule . index.php
+ 
+#############
+ 
+
+#RewriteRule - deny access to all files in xapp/ folder, redirect any call to that folder to index.php
+RewriteRule ^xapp/.*$ index.php
+
+#RewriteCond - allow direct access to all other files ( like images, css or scripts )
+RewriteCond %{REQUEST_FILENAME} !-f
+
+#RewriteRule - redirect anything else to index.php
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# Disable the server signature 
+ServerSignature Off
+ 
+# Limit bandwidth consumption
+<ifmodule mod_php5.c>
+php_value zlib.output_compression 16386
+</ifmodule>
+
+# protect htaccess file
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
